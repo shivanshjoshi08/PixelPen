@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-
+// Array of taglines to rotate through
 const taglines = [
   "tweets are too short.",
   "notes aren’t enough.",

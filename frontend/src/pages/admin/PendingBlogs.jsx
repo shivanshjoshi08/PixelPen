@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { assets } from "../../assets/assets";
 import { useAppContext } from "../../context/AppContext";
 import toast from "react-hot-toast";
-
+// Component to review and manage pending blogs in the admin panel
 const PendingBlogs = () => {
   const [pendingBlogs, setPendingBlogs] = useState([]);
   const [loading, setLoading] = useState(true);

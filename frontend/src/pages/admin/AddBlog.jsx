@@ -4,7 +4,7 @@ import Quill from "quill";
 import { useAppContext } from "../../context/AppContext";
 import toast from "react-hot-toast";
 import { parse } from "marked";
-
+// Component for adding a new blog post with AI-generated content feature
 const AddBlog = () => {
   const { axios } = useAppContext();
   const [isAdding, setIsAdding] = useState(false);

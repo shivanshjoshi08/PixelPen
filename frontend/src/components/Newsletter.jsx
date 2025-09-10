@@ -1,5 +1,5 @@
 import React from 'react'
-
+// Newsletter subscription component
 const Newsletter = () => {
   return (
     <div className='flex flex-col items-center justify-center text-center space-y-2 my-32'>

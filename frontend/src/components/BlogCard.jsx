@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const BlogCard = ({ blog }) => {
   const { title, subTitle, category, image, _id, writerName } = blog;
   const navigate = useNavigate();
-
+// Navigate to detailed blog view on card click
   return (
     <div
       onClick={() => navigate(`/blog/${_id}`)}

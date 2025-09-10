@@ -3,7 +3,7 @@ import { blog_data } from '../../assets/assets';
 import BlogTableItem from '../../components/admin/BlogTableItem';
 import { useAppContext } from '../../context/AppContext';
 import toast from 'react-hot-toast';
-
+// Component to list all blogs in the admin panel
 const ListBlog = () => {
 
  const [blogs, setBlogs] = useState([]);

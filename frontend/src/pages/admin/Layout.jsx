@@ -3,7 +3,7 @@ import { assets } from '../../assets/assets'
 import { Outlet } from 'react-router-dom'
 import Sidebar from '../../components/admin/Sidebar'
 import { useAppContext } from '../../context/AppContext'
-
+// Layout component for the admin panel with header and sidebar
 const Layout = () => {
 
     const {axios, setToken, navigate} = useAppContext()

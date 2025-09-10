@@ -16,7 +16,7 @@ import upload from "../middleware/multer.js";
 import auth from "../middleware/auth.js";
 
 const blogRouter = express.Router();
-
+//blog routes for various blog functionalities
 blogRouter.post("/add", upload.single("image"), auth, addBlog);
 blogRouter.post("/submit", upload.single("image"), submitBlogForReview);
 blogRouter.get("/all", getAllBlogs);

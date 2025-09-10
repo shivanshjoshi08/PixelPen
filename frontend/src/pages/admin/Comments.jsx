@@ -3,7 +3,7 @@ import { comments_data } from '../../assets/assets'
 import CommentTableItem from '../../components/admin/CommentTableItem'
 import { useAppContext } from '../../context/AppContext'
 import toast from 'react-hot-toast'
-
+// Component to manage and display comments in the admin panel
 const Comments = () => {
 
     const [comments, setComments] = useState([])

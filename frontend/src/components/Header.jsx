@@ -3,7 +3,7 @@ import { assets } from '../assets/assets'
 import { useAppContext } from '../context/AppContext'
 import RotatingTagline from './RotatingTaglines'
 
-const Header = () => {
+const Header = () => {// Header component with search functionality
   const { setInput, input } = useAppContext()
   const inputRef = useRef()
 

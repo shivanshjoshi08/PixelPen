@@ -10,7 +10,7 @@ import {
 } from "../controllers/adminController.js";
 import auth from "../middleware/auth.js";
 
-const adminRouter = express.Router();
+const adminRouter = express.Router();  //admin routes for various admin functionalities
 
 adminRouter.post("/login", adminLogin);
 adminRouter.get("/comments", auth, getAllComments);

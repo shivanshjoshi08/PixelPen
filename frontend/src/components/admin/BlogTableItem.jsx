@@ -3,7 +3,7 @@ import { assets } from "../../assets/assets";
 import { useAppContext } from "../../context/AppContext";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
-
+// Component representing a single blog item in the admin table
 const BlogTableItem = ({ blog, fetchBlogs, index }) => {
   const { title, createdAt, writerName } = blog;
   const BlogDate = new Date(createdAt);

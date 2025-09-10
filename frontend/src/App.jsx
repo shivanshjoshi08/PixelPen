@@ -13,7 +13,7 @@ import Login from "./components/admin/Login";
 import "quill/dist/quill.snow.css";
 import { Toaster } from "react-hot-toast";
 import { useAppContext } from "./context/AppContext";
-
+// Main application component managing routes and authentication
 const App = () => {
   const { token } = useAppContext();
 

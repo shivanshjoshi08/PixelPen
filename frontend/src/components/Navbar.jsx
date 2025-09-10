@@ -6,7 +6,7 @@ import { Menu, X } from "lucide-react"; // hamburger & close icons
 const Navbar = () => {
   const { navigate, token } = useAppContext();
   const [isOpen, setIsOpen] = useState(false);
-
+// State to manage mobile menu visibility
   return (
     <nav className="w-full shadow-sm">
       <div className="flex justify-between items-center py-4 px-6 sm:px-12 xl:px-20">

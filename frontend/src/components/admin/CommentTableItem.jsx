@@ -2,7 +2,7 @@ import React from 'react'
 import { assets } from '../../assets/assets';
 import { useAppContext } from '../../context/AppContext';
 import toast from 'react-hot-toast';
-
+// Component representing a single comment item in the admin table
 const CommentTableItem = ({comment, fetchComments}) => {
 
     const { blog, createdAt, _id } = comment;

@@ -5,7 +5,7 @@ import BlogCard from './BlogCard'
 import { useAppContext } from '../context/AppContext'
 
 const BlogList = () => {
-
+// State to manage selected category
     const [menu, setMenu] = useState("All")
     const {blogs, input} = useAppContext()
 

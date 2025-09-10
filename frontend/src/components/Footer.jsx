@@ -1,5 +1,5 @@
 import React from 'react'
-import { assets, footer_data } from '../assets/assets'
+import { assets, footer_data } from '../assets/assets'//importing assets and footer data
 
 const Footer = () => {
   return (

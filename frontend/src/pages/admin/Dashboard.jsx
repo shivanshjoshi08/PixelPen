@@ -3,7 +3,7 @@ import { assets, dashboard_data } from "../../assets/assets";
 import BlogTableItem from "../../components/admin/BlogTableItem";
 import { useAppContext } from "../../context/AppContext";
 import toast from "react-hot-toast";
-
+// Admin dashboard component displaying key metrics and recent blogs
 const Dashboard = () => {
   const [dashboardData, setDashboardData] = useState({
     blogs: 0,

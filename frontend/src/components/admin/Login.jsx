@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useAppContext } from '../../context/AppContext'
 import toast from 'react-hot-toast';
 import { data } from 'react-router-dom';
-
+// Admin login component
 const Login = () => {
 
     const {axios, setToken} = useAppContext();

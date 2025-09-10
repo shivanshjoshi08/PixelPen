@@ -4,7 +4,7 @@ import Blog from "../models/Blog.js";
 import Comment from "../models/Comment.js";
 import main from "../configs/gemini.js";
 
-export const submitBlogForReview = async (req, res) => {
+export const submitBlogForReview = async (req, res) => {   //blogController.js for submitting blog for review
   try {
     const { title, subTitle, writerName, description, category } = JSON.parse(
       req.body.blog

@@ -3,7 +3,7 @@ import { assets } from "../assets/assets";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import { useAppContext } from "../context/AppContext";
-
+// Page for writing and submitting a new blog post with AI-assisted content generation
 const WriteBlog = () => {
   const navigate = useNavigate();
   const { axios } = useAppContext();
