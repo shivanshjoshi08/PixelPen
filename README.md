@@ -8,7 +8,7 @@
 
 PixelPen is a modern and feature-rich blogging application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). This platform allows users to share their thoughts, stories, and knowledge with the world through an intuitive and responsive interface.
 
-**[➡️ View Live Demo](https://your-live-demo-link.com)**
+**[➡️ View Live Demo](https://pixel-pen-ecru.vercel.app/)**
 
 ---
 
