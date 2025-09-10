@@ -1,0 +1,68 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+/* Global Styles */
+*{
+  font-family: "Inter", sans-serif;
+}
+
+/* Custom Scrollbar (Optional but nice) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Updated Theme Colors */
+@theme {
+  --color-primary: #4f46e5;      /* A richer Indigo */
+  --color-secondary: #10b981;    /* A vibrant Green for accents */
+  --color-text-primary: #1f2937; /* Darker gray for better readability */
+  --color-text-secondary: #6b7280;/* Lighter gray for subtitles */
+  --color-background: #f8fafc;   /* A very light gray background */
+}
+
+/* Rich Text styles - No changes needed here, they are good */
+.rich-text { font-size: 16px; line-height: 1.7; }
+.rich-text p { margin-bottom: 1.25em; color: #374151; }
+.rich-text h1 { font-size: 2.5em; font-weight: 800; color: #111827 !important; margin: 1.5em 0 1em; }
+.rich-text h2 { font-size: 1.75em; font-weight: 700; color: #111827 !important; margin: 1.5em 0 1em; }
+.rich-text h3 { font-size: 1.35em; font-weight: 600; color: #1f2937 !important; margin: 1.5em 0 1em; }
+.rich-text strong { font-weight: 700; }
+.rich-text ol, .rich-text ul { margin-left: 1.5em; margin-bottom: 1.25em; }
+.rich-text li { margin-bottom: 0.5em; }
+.rich-text a { color: #4f46e5; text-decoration: underline; }
+
+/* Admin review specific styles - No changes needed */
+.admin-review-content {
+  max-height: 500px;
+  overflow-y: auto;
+  background: #f9fafb;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.admin-review-content .rich-text {
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Smooth transitions for expand/collapse */
+.content-toggle {
+  transition: all 0.3s ease;
+}
+
+.content-toggle img {
+  transition: transform 0.3s ease;
+}
